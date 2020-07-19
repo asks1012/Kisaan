@@ -1,0 +1,410 @@
+body,html {
+  height:100%;
+}
+
+#body {
+  height: 100%;
+  background-image: linear-gradient(to right,#73c2fb,white);
+  background-position: center;
+  background-size: cover;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  float: center;
+  transition: transform 0.5s;
+}
+
+#logo:hover {
+  transform: scale(1.05);
+}
+
+#search {
+  width: 70%;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px;
+  transition: width 0.8s ease-in-out;
+  float:right;
+  height:18.5px;
+  border:none;
+  outline:none;
+  border-radius:0px;
+}
+
+#search:hover {
+    width:100%;
+}
+
+#searchbutton {
+  float: right;
+  border:none;
+  padding: 10px;
+  margin-right:10px;
+  background-color: #12b2f7;
+  outline: none;
+  text-decoration: none;
+  height:18.5px;
+  transition: transform 1s;
+}
+
+#searchbutton:hover {
+  background-color: #0280b7;
+  outline: none;
+  border:none;
+  color:white;
+  transform: rotate(360deg);
+}
+
+#login {
+  padding: 8px;
+  color:white;
+  float: right;
+  outline: none;
+  text-decoration: none;
+  border:1.8px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 20px;
+  margin-right: 3px;
+  transition: transform 0.5s;
+}
+
+#login:hover {
+  outline: none;
+  border:none;
+  background-color: #0C59B0;
+  border:1.8px solid white;
+  transform: scale(1.06);
+}
+
+#signup {
+  padding: 8px;
+  color:white;
+  float: right;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  margin-right: 10px;
+  border:1.8px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius:20px;
+  transition: transform 0.5s;
+}
+
+#signup:hover {
+  outline:none;
+  border:none;
+  background-color: #0C59B0;
+  border:1.8px solid white;
+  transform: scale(1.06);
+}
+
+#logout {
+  padding: 8px;
+  color:white;
+  float: right;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  margin-right: 10px;
+  border:1.8px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius:20px;
+  transition: transform 0.5s;
+}
+
+#logout:hover {
+  outline: none;
+  border:none;
+  background-color: #0C59B0;
+  border:1.8px solid white;
+  transform: scale(1.06);
+}
+
+
+#totalnavbar {
+  list-style-type: none;
+  margin:0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top:0px;
+  width:96.3%;
+  border:none;
+  outline:none;
+  border-bottom:2px solid #049CDC;
+}
+
+#navbarlist {
+  float:left;
+  padding:10px;
+  margin-top:7.3px;
+}
+
+#navbarlist2 {
+  float:right;
+  margin-top:7px;
+  margin-bottom:7px;
+}
+
+#navbarlink {
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+#navbarlink:hover {
+  color: #049CDC;
+}
+
+
+
+#settings {
+  width: 45px;
+  height: 40px;
+  margin-right: 10px;
+  position: fixed;
+  float: right;
+  top:73px;
+  right:140px;
+  transition: transform 0.5s;
+}
+
+#settings:hover {
+  border-radius: 10px;
+  transform: scale(1.2);
+}
+
+#cart {
+  width: 50px;
+  height: 45px;
+  float: right;
+  margin-right: 10px;
+  position: fixed;
+  top:70px;
+  right:75px;
+  transition: transform 0.5s;
+}
+
+#cart:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+#profileimage {
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin-right: 10px;
+  position:fixed;
+  top:62px;
+  right:4px;
+  transition: transform 0.5s;
+}
+
+#profileimage:hover {
+  transform:scale(1.2);
+  border-radius:10px;
+}
+
+#span {
+  font-size: 50px;
+}
+
+#homeimage {
+  width:99%;
+  margin-top:5px;
+  border:1px solid green;
+  border-radius:10px;
+}
+
+/* applying css to login form */
+
+#loginbody {
+  background-image: linear-gradient(60deg,#13547A,#80D0C7);
+}
+
+
+#loginlogo {
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginform {
+  width: 50%;
+  outline: none;
+  padding: 20px;
+  border-top:30px solid #13547A;
+  border-bottom:4px solid  #13547A;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0;
+
+}
+
+#logininput {
+  width: 97%;
+  height: 30px;
+  outline: none;
+  border:none;
+  border-bottom:2px solid green;
+  padding: 5px 10px;
+  margin:8px 0;
+  box-sizing:border-box;
+  transition: transform 0.5s;
+}
+
+#logininput:hover {
+  transform: scale(1.03);
+}
+
+#loginbutton {
+  width: 50%;
+  border-radius: 7px;
+  height: 35px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #4594C3;
+  border:1px solid #13547A;
+  color:white;
+  float: right;
+  outline:none;
+  transition: transform 0.5s;
+}
+
+#loginbutton:hover {
+  box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+/* creating css for signup form */
+#signupform {
+  border-top:30px solid #13547A;
+  border-bottom: 4px solid #13547A;
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0;
+  margin: 0 auto;
+  outline: none;
+  height: 500px;
+}
+
+#signupinput {
+  width: 97%;
+  height:26px;
+  padding: 5px;
+  outline: none;
+  border:none;
+  border-bottom: 2px solid green;
+  transition: transform 0.5s;
+}
+
+#signupinput:hover {
+  transform: scale(1.03);
+}
+
+#cancelbutton{
+  background-color: #DC0B04;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 7px;
+  color:white;
+  border:1px solid #13547A;
+  outline: none;
+  width: 49.5%;
+  float: left;
+  height: 35px;
+  margin-right: 1px;
+  outline:none;
+  transition: transform 0.5s;
+}
+
+#cancelbutton:hover {
+  box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+  outline:none;
+  transform:scale(1.04);
+}
+
+#contactform {
+  outline: none;
+  padding: 20px;
+  border: 2px solid white;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: url('greengradient.jpg');
+  box-shadow: 0px 8px 16px 0;
+}
+
+#profile {
+  width: 270px;
+  margin:0 auto;
+  padding: 20px;
+  border-radius:10px;
+  box-shadow: 0 8px 16px 0;
+  outline: none;
+  border-top: 30px solid #0C59B0;
+}
+
+#myorders {
+  padding: 8px;
+  color:white;
+  float: right;
+  outline: none;
+  text-decoration: none;
+  border:1.8px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 20px;
+  margin-right: 3px;
+  transition: transform 0.5s;
+  background: #73c2fb;
+}
+
+#myorders:hover {
+  background-color: #0C59B0;
+  transform: scale(1.05);
+}
+
+#profilelogout {
+  padding: 8px;
+  color:white;
+  float: left;
+  outline: none;
+  text-decoration: none;
+  border:1.8px solid white;
+  padding-left: 33px;
+  padding-right: 33px;
+  border-radius: 20px;
+  margin-right: 3px;
+  transition: transform 0.5s;
+  background: #73c2fb;
+}
+
+#profilelogout:hover {
+  background-color: #0C59B0;
+  transform: scale(1.05);
+}
+/* designing buy */
+#buyimage {
+  width:24.2%;
+  transition: transform 0.5s;
+  box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+  border:1px solid #73c2fb;
+}
+
+#buyimage:hover {
+  transform: scale(1.05);
+}
